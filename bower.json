@@ -1,0 +1,21 @@
+{
+  "name": "angularjs-examples",
+  "description": "This is a collection of AngularJS examples. I am learning and want to share the experience.",
+  "version": "0.0.1",
+  "license": "Apache-2.0",
+  "keywords": ["angularjs", "examples", "learning"],
+  "authors": [
+    {"name": "Konrad Kleine", "email": ""}
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kwk/angularjs-examples.git"
+  },
+  "dependencies": {
+    "angularjs": "latest",
+    "jquery": "latest",
+    "bootstrap": "latest"
+  },
+  "private": true
+}
+
