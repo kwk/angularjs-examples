@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+  <head>
+    <title>001-authors</title>
+    <meta charset="utf-8">
+  </head>
+  <body ng-init="authors=['Karl May', 'J. R. R. Tolkien', 'Dan Brown', 'Elizabeth Kostova']">
+    <h1>Authors</h1>
+    <ul>
+      <li ng-repeat="author in authors">{{ author }}</li>
+    </ul>
+    <script src="../../bower_components/angularjs/angular.js"></script>
+  </body>
+</html>
