@@ -6,9 +6,9 @@
   </head>
   <body ng-init="authors=['Karl May', 'J. R. R. Tolkien', 'Dan Brown', 'Elizabeth Kostova']">
     <h1>Authors</h1>
-    <input type="text" ng-model="searchName" value="" placeholder="Type in name to filter by" />
+    <input type="text" ng-model="searchTerm" value="" placeholder="Type in name to filter by" />
     <ul>
-      <li ng-repeat="author in authors | filter:searchName">{{ author }}</li>
+      <li ng-repeat="author in authors | filter:searchTerm">{{ author }}</li>
     </ul>
     <script src="../../bower_components/angularjs/angular.js"></script>
   </body>
