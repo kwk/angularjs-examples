@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+  <head>
+    <title>002-authors-search</title>
+    <meta charset="utf-8">
+  </head>
+  <body ng-init="authors=['Karl May', 'J. R. R. Tolkien', 'Dan Brown', 'Elizabeth Kostova']">
+    <h1>Authors</h1>
+    <input type="text" ng-model="searchName" value="" placeholder="Type in name to filter by" />
+    <ul>
+      <li ng-repeat="author in authors | filter:searchName">{{ author }}</li>
+    </ul>
+    <script src="../../bower_components/angularjs/angular.js"></script>
+  </body>
+</html>
