@@ -1,7 +1,7 @@
 Example 002 Authors with search
 ===============================
 
-Based on the previous example we'll add a searh ability to our authors list. You type in a text and the unordered list of authors then shows only those authors matching your input. For the time being we don't care about the actual type of matching algorithm that is used. 
+Based on the previous example we'll add a the ability to search for an author in the list. You type in a text and the unordered list of authors then shows only those authors matching your input. For the time being we don't care about the actual type of matching algorithm that is used. 
 
 For this to work we introduce the concept of "filters" in AngularJS. Think of an expression where you print a value `{{ value }}` but before actually printing it you want to modify the value a bit.
 
