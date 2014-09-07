@@ -1,4 +1,5 @@
-= Example 001 Authors =
+Example 001 Authors
+===================
 
 In this introductory example, we'll be using the most basic but powerful features of AngularJS I can think of: directives and expressions.
 
